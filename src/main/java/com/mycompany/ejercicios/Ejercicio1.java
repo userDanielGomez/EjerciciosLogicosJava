@@ -30,14 +30,17 @@ public class Ejercicio1 {
         
         Scanner teclado = new Scanner(System.in);
         
+        //Declaración e inicialización de variables
         String nombre;
         int departamento=0;
         int antiguedad=0;
         int vacaciones=0;
         
+        //Solicitud y asignación del nombre del empleado
         System.out.println("Ingrese el nombre del empleado");
         nombre = teclado.nextLine();
         
+        //Bucle para validar que el usuario ingrese un departamento valido (menor a 3 y mayor a 0)
         while(true){
             try {
                 System.out.println("Ingrese el departamento del empleado");
@@ -49,6 +52,7 @@ public class Ejercicio1 {
             }
         }
         
+        //Bucle para asegurar que al trabajador se le asigne un valor numerico
         while(true){
             try{
                 System.out.println("Ingrese los años de antiguedad del empleado");
@@ -59,6 +63,7 @@ public class Ejercicio1 {
             }
         }
         
+        //Switch que determina dias de vacaciones del trabajador en base a departamento y años de antiguedad
         switch (departamento) {
             case 1:
                 if(antiguedad==1)
@@ -86,6 +91,7 @@ public class Ejercicio1 {
                 throw new AssertionError();
         }
         
+        //Impresion del resultado
         System.out.println("Nombre: "+nombre);
         System.out.println("Departamento: "+departamento);
         System.out.println("Antiguedad: "+antiguedad);

@@ -88,6 +88,7 @@ public class Ejercicio1 {
                     vacaciones=30;
                 break;
             default:
+                vacaciones=0;
                 throw new AssertionError();
         }
         

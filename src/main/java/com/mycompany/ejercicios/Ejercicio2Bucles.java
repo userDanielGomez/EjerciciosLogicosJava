@@ -25,14 +25,18 @@ public class Ejercicio2Bucles {
         int k = 100;
         //Declaro variable para ciclo do while
         int x = 1;
-        int y = 1;
-        int z = 1;
+        int y = 0;
+        int z = 0;
         int conta = 0;
         
         
         //Estructura for para la primera estructura
         for(int i=0; i<=9;i++){
-            System.out.println(i+1);
+            if(i==9)
+                System.out.print(i+1);
+            else
+                System.out.print(i+1+",");
+            
         }
         
         System.out.println("--------------------------");
@@ -45,8 +49,6 @@ public class Ejercicio2Bucles {
         }
         //Ciclo do while para serie fibonacci
         System.out.println("--------------------------");
-        System.out.print("0 ");
-        System.out.print("1 ");
         do{
             System.out.print(z+" ");
             y = x;

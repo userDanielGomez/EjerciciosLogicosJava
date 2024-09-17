@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.mycompany.ejercicios;
 
 import java.util.Scanner;
@@ -29,7 +25,7 @@ public class Ejercicio5ManupulacionCadenas {
         System.out.println("Por favor ingrese una cadena de texto");
         cadena = teclado.nextLine();
         
-        //Bucle para solicitar y obtener val1 y asegurarse que sea un número
+        //Bucle para solicitar y obtener var1 y asegurarse que sea un número
         while(true){
             try{
                 System.out.println("Ingrese el numero desde donde quiere obtener la cadena");
@@ -40,7 +36,7 @@ public class Ejercicio5ManupulacionCadenas {
             }
         }
         
-        //Bucle para solicitar y obtener val2 y asegurarse que sea un número
+        //Bucle para solicitar y obtener var2 y asegurarse que sea un número
         while(true){
             try{
                 System.out.println("Ingrese el numero hasta donde quiere obtener la cadena");

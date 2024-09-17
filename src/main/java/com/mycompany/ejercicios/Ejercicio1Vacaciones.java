@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package com.mycompany.ejercicios;
 
 import java.util.Scanner;
@@ -46,7 +42,9 @@ public class Ejercicio1Vacaciones {
                 System.out.println("Ingrese el departamento del empleado");
                 departamento=Integer.parseInt(teclado.nextLine());
                 if(departamento<=3 && departamento>0)
-                break;
+                    break;
+                else
+                    System.out.println("El departamento debe ser menor o igual a 3 y mayor a 0");
             } catch (Exception e) {
                 System.out.println("Ingrese un dato valido");
             }

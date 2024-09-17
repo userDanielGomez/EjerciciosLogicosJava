@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package com.mycompany.ejercicios;
 
 /**
@@ -29,7 +25,6 @@ public class Ejercicio2Bucles {
         int z = 0;
         int conta = 0;
         
-        
         //Estructura for para la primera estructura
         for(int i=0; i<=9;i++){
             if(i==9)
@@ -56,7 +51,6 @@ public class Ejercicio2Bucles {
             z = x+y;
             conta++;
         }while(conta<20);
-        
         
     }
     

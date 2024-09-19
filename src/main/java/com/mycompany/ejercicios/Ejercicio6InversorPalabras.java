@@ -14,7 +14,7 @@ public class Ejercicio6InversorPalabras {
     public static void main(String[] args) {
         // Generar código que solicite al usuario una palabra y posteriormente 
         // muestre en consola la palabra invertida usando los metodos
-        // .lenth y .substring
+        // .length y .substring
         String palabra;
         String palabraNueva = "";
         

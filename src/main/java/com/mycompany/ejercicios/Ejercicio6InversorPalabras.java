@@ -25,13 +25,14 @@ public class Ejercicio6InversorPalabras {
         System.out.println("Ingrese la palabra que desea invertir");
         palabra = teclado.nextLine();
         
-        //Arreglo que usa .substring para obtener la cadena invertida
+        //Bucle que usa .substring para guardar la palabra invertida en la
+        //variable palabraNueva obteniendo letra por letra
         for(int i = palabra.length(); i>0; i--){
-//            System.out.print(palabra.substring(i-1,i));
             palabraNueva = palabraNueva +palabra.substring(i-1,i);
         }
         
-        System.out.println(palabraNueva);
+        //Impresión en consola de la palabra invertida
+        System.out.println("Su palabra invertida es: "+palabraNueva);
         
         //Se cierra el objeto Scanner
         teclado.close();
